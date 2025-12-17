@@ -9,48 +9,51 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[About the Author: Muhammad Waheed]]></title>
+            <title><![CDATA[About the Author: roohia-bashir]]></title>
             <link>https://Roohia-Bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed</link>
             <guid>https://Roohia-Bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed</guid>
             <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn about Muhammad Waheed, the creator behind the AI-Native Textbook for Physical AI & Humanoid Robotics]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="professional-background--expertise">Professional Background &amp; Expertise<a href="https://roohia-bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed#professional-background--expertise" class="hash-link" aria-label="Direct link to Professional Background &amp; Expertise" title="Direct link to Professional Background &amp; Expertise" translate="no">​</a></h2>
-<p>I'm Muhammad Waheed, an AI and robotics enthusiast with a passion for creating accessible educational content in the field of Physical AI and Humanoid Robotics. My journey in technology has been focused on bridging the gap between complex AI concepts and practical robotics applications.</p>
-<p>My expertise spans across multiple domains including:</p>
-<ul>
-<li class="">Artificial Intelligence and Machine Learning</li>
-<li class="">Robotics frameworks, particularly ROS 2</li>
-<li class="">Simulation environments like Gazebo and NVIDIA Isaac</li>
-<li class="">Vision-Language-Action systems</li>
-<li class="">Educational technology and curriculum development</li>
-</ul>
+            <description><![CDATA[Learn about roohia-bashir, the creator behind the AI-Native Textbook for Physical AI & Humanoid Robotics]]></description>
+            <content:encoded><![CDATA[<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="title-about-the-author-roohia-bashirtags-author-ai-robotics-educationdescription-learn-about-roohia-bashir-the-creator-behind-the-ai-native-textbook-for-physical-ai--humanoid-robotics">title: "About the Author: roohia-bashir"
+tags: [author, ai, robotics, education]
+description: "Learn about roohia-bashir, the creator behind the AI-Native Textbook for Physical AI &amp; Humanoid Robotics"<a href="https://roohia-bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed#title-about-the-author-roohia-bashirtags-author-ai-robotics-educationdescription-learn-about-roohia-bashir-the-creator-behind-the-ai-native-textbook-for-physical-ai--humanoid-robotics" class="hash-link" aria-label="Direct link to title: &quot;About the Author: roohia-bashir&quot;
+tags: [author, ai, robotics, education]
+description: &quot;Learn about roohia-bashir, the creator behind the AI-Native Textbook for Physical AI &amp; Humanoid Robotics&quot;" title="Direct link to title: &quot;About the Author: roohia-bashir&quot;
+tags: [author, ai, robotics, education]
+description: &quot;Learn about roohia-bashir, the creator behind the AI-Native Textbook for Physical AI &amp; Humanoid Robotics&quot;" translate="no">​</a></h2>
+<h1>About the Author: roohia-bashir</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="professional-background--expertise">Professional Background &amp; Expertise<a href="https://roohia-bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed#professional-background--expertise" class="hash-link" aria-label="Direct link to Professional Background &amp; Expertise" title="Direct link to Professional Background &amp; Expertise" translate="no">​</a></h2>
+<p>I’m roohia-bashir, an AI and robotics enthusiast dedicated to building clear, practical, and future-focused educational resources in the domain of Physical AI and Humanoid Robotics. My work emphasizes translating complex AI ideas into real-world robotic systems that learners can understand and apply.</p>
+<p>My expertise covers multiple areas, including:</p>
+<p>* Artificial Intelligence and Machine Learning
+* Robotics frameworks, with a strong focus on ROS 2
+* Simulation platforms such as Gazebo and NVIDIA Isaac
+* Vision-Language-Action (VLA) systems
+* Educational technology and curriculum development</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="motivation-for-creating-the-ai-native-textbook">Motivation for Creating the AI-Native Textbook<a href="https://roohia-bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed#motivation-for-creating-the-ai-native-textbook" class="hash-link" aria-label="Direct link to Motivation for Creating the AI-Native Textbook" title="Direct link to Motivation for Creating the AI-Native Textbook" translate="no">​</a></h2>
-<p>The inspiration for creating the AI-Native Textbook for Physical AI &amp; Humanoid Robotics came from a recognized need in the robotics education space. Traditional robotics curricula often lack comprehensive coverage of modern AI integration with physical systems, especially in the context of humanoid robotics.</p>
-<p>I wanted to create a resource that:</p>
-<ul>
-<li class="">Provides a structured, 13-week curriculum covering essential robotics concepts</li>
-<li class="">Integrates cutting-edge AI technologies with physical robot systems</li>
-<li class="">Makes advanced robotics concepts accessible to students and practitioners</li>
-<li class="">Covers the entire pipeline from sensor integration to autonomous decision-making</li>
-<li class="">Uses industry-standard tools and frameworks that professionals actually use</li>
-</ul>
-<p>The goal is to democratize access to high-quality robotics education and prepare the next generation of engineers for the future of AI-physical interaction.</p>
+<p>The motivation behind the AI-Native Textbook for Physical AI &amp; Humanoid Robotics came from observing a major gap in existing robotics education. Many traditional programs do not sufficiently integrate modern AI techniques with physical robotic systems, particularly for humanoid robotics.</p>
+<p>This textbook was created to:</p>
+<p>* Offer a structured 13-week curriculum covering both foundational and advanced robotics topics
+* Integrate state-of-the-art AI models with real and simulated robotic platforms
+* Make complex robotics concepts accessible to students, developers, and educators
+* Cover the full robotics pipeline, from sensing and perception to planning and autonomy
+* Use industry-standard tools and workflows commonly adopted in professional environments</p>
+<p>The overarching goal is to democratize access to high-quality robotics education and help learners prepare for the future of AI-powered physical systems.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="technologies-used-in-this-project">Technologies Used in This Project<a href="https://roohia-bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed#technologies-used-in-this-project" class="hash-link" aria-label="Direct link to Technologies Used in This Project" title="Direct link to Technologies Used in This Project" translate="no">​</a></h2>
-<p>This AI-Native Textbook project leverages several cutting-edge technologies:</p>
-<ul>
-<li class=""><strong>ROS 2 (Robot Operating System)</strong>: The backbone for robot communication, with its robust ecosystem of tools for sensor integration, navigation, and control</li>
-<li class=""><strong>Docusaurus</strong>: The documentation platform that powers this textbook, providing an excellent framework for technical content</li>
-<li class=""><strong>Node.js</strong>: Used for the build process and site generation</li>
-<li class=""><strong>Gazebo</strong>: For high-fidelity physics simulation and testing of robotic algorithms</li>
-<li class=""><strong>NVIDIA Isaac</strong>: For photorealistic simulation and hardware-accelerated AI processing</li>
-<li class=""><strong>Unity</strong>: For advanced rendering and digital twin applications</li>
-<li class=""><strong>OpenAI Whisper</strong>: For voice-to-action capabilities in the Vision-Language-Action module</li>
-<li class=""><strong>Large Language Models (LLMs)</strong>: For cognitive planning and natural language processing</li>
-</ul>
+<p>The AI-Native Textbook is built using a modern and carefully selected technology stack:</p>
+<p>* <strong>ROS 2 (Robot Operating System)</strong>: The primary middleware for robot communication, control, and navigation
+* <strong>Docusaurus</strong>: The documentation framework used to deliver structured and readable technical content
+* <strong>Node.js</strong>: Supporting the build pipeline and static site generation
+* <strong>Gazebo</strong>: Physics-based simulation for testing and validating robotic behaviors
+* <strong>NVIDIA Isaac</strong>: High-fidelity, GPU-accelerated simulation and AI integration
+* <strong>Unity</strong>: Advanced visualization, rendering, and digital twin development
+* <strong>OpenAI Whisper</strong>: Speech-to-action functionality for Vision-Language-Action pipelines
+* <strong>Large Language Models (LLMs)</strong>: Cognitive reasoning, task planning, and natural-language interaction</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="personal-interests">Personal Interests<a href="https://roohia-bashir.github.io/hackathon_textbook_ai_robotics/blog/2025/12/10/about-muhammad-waheed#personal-interests" class="hash-link" aria-label="Direct link to Personal Interests" title="Direct link to Personal Interests" translate="no">​</a></h2>
-<p>Outside of robotics and AI, I enjoy exploring the intersection of technology and education. I believe that the future of robotics lies not just in technical advancement, but in making these technologies accessible and understandable to a broader audience.</p>
-<p>I'm passionate about creating learning experiences that are both rigorous and engaging, helping students develop both theoretical understanding and practical skills. When I'm not working on robotics projects, I enjoy staying updated on the latest developments in AI research and finding new ways to explain complex concepts clearly.</p>
-<p>The AI-Native Textbook project represents my commitment to advancing robotics education and empowering the next generation of roboticists with the knowledge and tools they need to shape the future.</p>]]></content:encoded>
+<p>Beyond robotics and AI, I’m deeply interested in the intersection of technology and education. I believe real impact comes from making advanced systems understandable, approachable, and useful for a wider audience.</p>
+<p>I enjoy designing learning experiences that balance strong theoretical foundations with hands-on implementation. When not actively working on projects, I stay engaged with the latest AI research and continuously explore better ways to explain complex technical ideas.</p>
+<p>The AI-Native Textbook reflects my long-term commitment to advancing robotics education and empowering the next generation of roboticists with the knowledge, tools, and mindset needed to shape the future of intelligent machines.</p>]]></content:encoded>
             <category>Author</category>
             <category>AI</category>
             <category>Robotics</category>
