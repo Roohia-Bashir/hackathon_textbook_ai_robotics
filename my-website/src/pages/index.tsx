@@ -24,7 +24,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--primary button--lg margin-left--sm"
-            to="https://github.com/Roohia-Bashir/hackathon_textbook_ai_robotic">
+            to="https://github.com/Roohia-Bashir/hackathon_textbook_ai_robotics">
             View on GitHub
           </Link>
         </div>
