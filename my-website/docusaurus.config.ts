@@ -3,6 +3,14 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const siteConfig = {
+  // Get environment variables - only pass the ones we want to expose to the client
+  RAG_API_URL: process.env.REACT_APP_RAG_API_URL ||
+    (process.env.NODE_ENV === 'production'
+      ? 'https://roohia-rag-chatbot-backend.hf.space
+      : 'http://localhost:8000'),
+  NODE_ENV: process.env.NODE_ENV || 'development',
+};
 
 const config: Config = {
   title: 'AI-Native Textbook Physical AI & Humanoid Robotics',
