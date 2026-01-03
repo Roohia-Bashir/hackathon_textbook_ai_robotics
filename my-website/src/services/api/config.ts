@@ -1,5 +1,5 @@
 const API_CONFIG = {
-  baseUrl: 'https://muhammadwaheedairi-rag-chatbot-textbook.hf.space', // Hugging Face Space URL
+  baseUrl: 'https://roohia-rag-chatbot-backend.hf.space', // Hugging Face Space URL
   timeout: 60000, // 60 seconds timeout to accommodate HF Spaces cold starts
   maxRetries: 3,
   headers: {
