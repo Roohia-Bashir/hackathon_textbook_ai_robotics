@@ -10,7 +10,7 @@ const siteConfig = {
       ? 'https://roohia-rag-chatbot-backend.hf.space
       : 'http://localhost:8000'),
   NODE_ENV: process.env.NODE_ENV || 'development',
-};
+},
 
 const config: Config = {
   title: 'AI-Native Textbook Physical AI & Humanoid Robotics',
