@@ -2,45 +2,40 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-const siteConfig = {
-  // Get environment variables - only pass the ones we want to expose to the client
-  RAG_API_URL: process.env.REACT_APP_RAG_API_URL ||
-    (process.env.NODE_ENV === 'production'
-      ? 'https://roohia-rag-chatbot-backend.hf.space
-      : 'http://localhost:8000'),
-  NODE_ENV: process.env.NODE_ENV || 'development',
-},
+// Environment variables (safe for client use via customFields)
+const RAG_API_URL =
+  process.env.REACT_APP_RAG_API_URL ??
+  (process.env.NODE_ENV === 'production'
+    ? 'https://roohia-rag-chatbot-backend.hf.space'
+    : 'http://localhost:8000');
 
 const config: Config = {
   title: 'AI-Native Textbook Physical AI & Humanoid Robotics',
-  tagline: 'A comprehensive textbook covering ROS 2, Gazebo, NVIDIA Isaac, and Vision-Language-Action systems',
+  tagline:
+    'A comprehensive textbook covering ROS 2, Gazebo, NVIDIA Isaac, and Vision-Language-Action systems',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
   url: 'https://Roohia-Bashir.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/hackathon_textbook_ai_robotics/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Roohia-Bashir', // Usually your GitHub org/user name.
-  projectName: 'hackathon_textbook_ai_robotics', // Usually your repo name.
+  organizationName: 'Roohia-Bashir',
+  projectName: 'hackathon_textbook_ai_robotics',
 
   onBrokenLinks: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+
+  /** 👇 Proper way to expose env vars to client */
+  customFields: {
+    RAG_API_URL,
+    NODE_ENV: process.env.NODE_ENV ?? 'development',
   },
 
   presets: [
@@ -49,8 +44,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Roohia-Bashir/hackathon_textbook_ai_robotics/edit/main/my-website/',
         },
@@ -60,11 +53,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Roohia-Bashir/hackathon_textbook_ai_robotics/edit/main/my-website/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -77,20 +67,28 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+
     colorMode: {
       defaultMode: 'light',
-      disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    // Enhanced accessibility and mobile responsiveness settings
+
     metadata: [
       {name: 'viewport', content: 'width=device-width, initial-scale=1.0'},
       {name: 'theme-color', content: '#12affa'},
-      {name: 'description', content: 'AI-Native Textbook for Physical AI & Humanoid Robotics covering ROS 2, Gazebo, NVIDIA Isaac, and Vision-Language-Action systems'},
-      {name: 'keywords', content: 'robotics, AI, textbook, ROS 2, Gazebo, NVIDIA Isaac, humanoid robotics, physical AI, education'},
+      {
+        name: 'description',
+        content:
+          'AI-Native Textbook for Physical AI & Humanoid Robotics covering ROS 2, Gazebo, NVIDIA Isaac, and Vision-Language-Action systems',
+      },
+      {
+        name: 'keywords',
+        content:
+          'robotics, AI, textbook, ROS 2, Gazebo, NVIDIA Isaac, humanoid robotics',
+      },
     ],
+
     navbar: {
       title: 'AI-Native Textbook',
       logo: {
@@ -112,42 +110,26 @@ const config: Config = {
         },
       ],
     },
+
     footer: {
       style: 'dark',
       links: [
         {
           title: 'Textbook',
-          items: [
-            {
-              label: 'Introduction',
-              to: '/docs/intro',
-            },
-          ],
+          items: [{label: 'Introduction', to: '/docs/intro'}],
         },
         {
           title: 'Resources',
           items: [
-            {
-              label: 'ROS 2 Documentation',
-              href: 'https://docs.ros.org/en/humble/',
-            },
-            {
-              label: 'NVIDIA Isaac',
-              href: 'https://developer.nvidia.com/isaac',
-            },
-            {
-              label: 'Gazebo Simulation',
-              href: 'https://gazebosim.org/',
-            },
+            {label: 'ROS 2 Documentation', href: 'https://docs.ros.org/en/humble/'},
+            {label: 'NVIDIA Isaac', href: 'https://developer.nvidia.com/isaac'},
+            {label: 'Gazebo Simulation', href: 'https://gazebosim.org/'},
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            {label: 'Blog', to: '/blog'},
             {
               label: 'GitHub',
               href: 'https://github.com/Roohia-Bashir/hackathon_textbook_ai_robotics',
@@ -155,8 +137,9 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AI-Native Textbook — Physical AI & Humanoid Robotics. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AI-Native Textbook`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
